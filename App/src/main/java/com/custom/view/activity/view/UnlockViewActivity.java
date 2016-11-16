@@ -3,7 +3,7 @@ package com.custom.view.activity.view;
 import android.os.Bundle;
 
 import com.custom.view.R;
-import com.custom.view.activity.BaseActivity;
+import com.custom.view.activity.base.BaseActivity;
 import com.custom.view.view.UnlockView;
 
 public class UnlockViewActivity extends BaseActivity {

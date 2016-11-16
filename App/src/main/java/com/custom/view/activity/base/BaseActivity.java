@@ -1,4 +1,4 @@
-package com.custom.view.activity;
+package com.custom.view.activity.base;
 
 import android.content.Intent;
 import android.net.Uri;

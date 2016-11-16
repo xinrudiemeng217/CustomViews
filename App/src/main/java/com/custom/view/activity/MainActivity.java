@@ -1,15 +1,13 @@
 package com.custom.view.activity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.custom.view.R;
+import com.custom.view.activity.base.BaseActivity;
 import com.custom.view.activity.view.UnlockViewActivity;
 
 public class MainActivity extends BaseActivity {
