@@ -2,24 +2,23 @@ package com.custom.view.activity;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.custom.view.R;
+import com.custom.view.activity.view.UnlockViewActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     // ListView
     private ListView lstView = null;
 
     // Values
-    private String[] vlaues = {"UnlockView"};
+    private CustomView[] VALUES = {new CustomView(R.string.view_title_unlockView, R.string.view_introduction_unlockView, UnlockViewActivity.class)};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,31 +34,11 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                Intent intent = new Intent(MainActivity.this, VALUES[position].getViewClass());
+                MainActivity.this.startActivity(intent);
             }
         });
 
-        lstView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, vlaues));
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_about, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_github:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/DesignQu")));
-                break;
-            case R.id.action_view:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/DesignQu/CustomViews")));
-                break;
-        }
-
-        return super.onOptionsItemSelected(item);
+        lstView.setAdapter(new DefaultAdapter(this, VALUES));
     }
 }

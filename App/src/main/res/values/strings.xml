@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CustomViews</string>
+
+    <string name="view_title_unlockView">UnlockView</string>
+    <string name="view_introduction_unlockView">4位数字密码锁</string>
+
 </resources>
