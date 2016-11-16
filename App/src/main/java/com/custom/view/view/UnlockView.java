@@ -23,7 +23,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 
 /**
- * 数字密码解锁View
+ * 四位数字密码解锁View
  */
 public class UnlockView extends LinearLayout {
 
