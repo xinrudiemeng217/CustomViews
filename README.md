@@ -2,7 +2,7 @@
 实际项目用到的各种自定义控件
 
 ##Screenshots
-###• UnlockView
+###• UnlockView 四位密码解锁框
 ![UnlockView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/UnlockView.gif "UnlockView")
 
 
