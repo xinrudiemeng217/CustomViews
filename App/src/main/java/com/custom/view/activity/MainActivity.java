@@ -8,6 +8,7 @@ import android.widget.ListView;
 
 import com.custom.view.R;
 import com.custom.view.activity.base.BaseActivity;
+import com.custom.view.activity.view.StarLevelViewActivity;
 import com.custom.view.activity.view.UnlockViewActivity;
 
 public class MainActivity extends BaseActivity {
@@ -16,7 +17,9 @@ public class MainActivity extends BaseActivity {
     private ListView lstView = null;
 
     // Values
-    private CustomView[] VALUES = {new CustomView(R.string.view_title_unlockView, R.string.view_introduction_unlockView, UnlockViewActivity.class)};
+    private CustomView[] VALUES = {
+            new CustomView(R.string.view_title_unlockView, R.string.view_introduction_unlockView, UnlockViewActivity.class),
+            new CustomView(R.string.view_title_starLevelView, R.string.view_introduction_starLevelView, StarLevelViewActivity.class)};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

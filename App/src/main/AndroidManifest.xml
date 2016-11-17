@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.view.UnlockViewActivity"/>
+        <activity android:name=".activity.view.StarLevelViewActivity"/>
     </application>
 
 </manifest>

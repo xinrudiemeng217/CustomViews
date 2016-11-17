@@ -4,4 +4,7 @@
     <string name="view_title_unlockView">UnlockView</string>
     <string name="view_introduction_unlockView">4位数字密码锁</string>
 
+    <string name="view_title_starLevelView">StarLevelView</string>
+    <string name="view_introduction_starLevelView">多边星形</string>
+
 </resources>
