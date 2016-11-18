@@ -7,4 +7,10 @@
     <string name="view_title_starLevelView">StarLevelView</string>
     <string name="view_introduction_starLevelView">多边星形</string>
 
+    <string name="view_title_timerView">TimerView</string>
+    <string name="view_introduction_timerView">支持正序倒序的计时器</string>
+
+    <string name="view_title_flowRadioGroup">FlowRadioGroup</string>
+    <string name="view_introduction_flowRadioGroup">动态RadioButton</string>
+
 </resources>

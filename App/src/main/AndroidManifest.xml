@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".activity.view.UnlockViewActivity"/>
         <activity android:name=".activity.view.StarLevelViewActivity"/>
+        <activity android:name=".activity.view.TimerViewActivity"/>
+        <activity android:name=".activity.view.FlowRadioGroupActivity"/>
     </application>
 
 </manifest>
