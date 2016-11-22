@@ -18,30 +18,15 @@ import android.widget.Chronometer;
  */
 public class TimerView extends Chronometer {
 
-	/** 时间格式化 */
 	private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("mm:ss", Locale.getDefault());
 
 	/** 计时总时间 */
 	private long totalTime = 60;
+	/** 剩余时间 */
+	private long remainingTime = totalTime;
+
 	/** 倒序、正序 */
 	private boolean direction = false;
-
-	public boolean isDirection() {
-		return direction;
-	}
-
-	public TimerView setDirection(boolean direction) {
-		this.direction = direction;
-		return this;
-	}
-
-	public long getTotalTime() {
-		return totalTime;
-	}
-
-	public void setTotalTime(long totalTime) {
-		this.totalTime = totalTime;
-	}
 
 	public TimerView(Context context) {
 		this(context, null, 0);
@@ -65,12 +50,12 @@ public class TimerView extends Chronometer {
 				;
 			}
 			else {
-				if (totalTime != 0) {
-					updateTextValue(totalTime);
-					totalTime--;
+				if (remainingTime != 0) {
+					remainingTime--;
+					updateTextValue(remainingTime);
 				}
 				else {
-					
+
 					if (onTimeCompleteListener != null) {
 						onTimeCompleteListener.complete();
 						setOnChronometerTickListener(null);
@@ -97,6 +82,30 @@ public class TimerView extends Chronometer {
 	 */
 	private synchronized void updateTextValue(long time) {
 		setText(simpleDateFormat.format(new Date(time * 1000)));
+	}
+
+	/**
+	 * 获取倒计是剩余时间
+	 */
+	public String getRemainingTime(SimpleDateFormat simpleDateFormat) {
+		return simpleDateFormat.format(new Date((totalTime - remainingTime) * 1000));
+	}
+
+	public boolean isDirection() {
+		return direction;
+	}
+
+	public TimerView setDirection(boolean direction) {
+		this.direction = direction;
+		return this;
+	}
+
+	public long getTotalTime() {
+		return totalTime;
+	}
+
+	public void setTotalTime(long totalTime) {
+		this.totalTime = totalTime;
 	}
 
 	public interface OnTimeCompleteListener {
