@@ -68,7 +68,7 @@ public class FlowRadioGroup extends RadioGroup {
 	 */
 	public void setItems(Map<String, String> items) {
 		this.clear();
-		
+
 		this.items = items;
 
 		this.addAllRadioButton(items);
@@ -82,6 +82,15 @@ public class FlowRadioGroup extends RadioGroup {
 		this.views.clear();
 
 		removeAllViews();
+	}
+
+	/**
+	 * 控制RadioButton是否有效
+	 */
+	public void setChildEnabled(boolean focus) {
+		for (int i = 0; i < getChildCount(); i++) {
+			getChildAt(i).setEnabled(focus);
+		}
 	}
 
 	/**
@@ -143,11 +152,13 @@ public class FlowRadioGroup extends RadioGroup {
 	private void addAllRadioButton(Map<String, String> items) {
 		this.sortMapByKey(items);
 
-		for (Entry<String, String> entry : items.entrySet()) {
+		for (Map.Entry<String, String> entry : items.entrySet()) {
 			this.addRadioButton(entry.getKey(), entry.getValue());
 		}
-		
+
 		clearCheck();
+
+		setChildEnabled(true);
 	}
 
 	/**
