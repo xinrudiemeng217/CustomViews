@@ -40,6 +40,8 @@ public class TimerView extends Chronometer {
 		super(context, attrs, defStyle);
 
 		setOnChronometerTickListener(onChronometerTickListener);
+
+		updateTextValue(remainingTime);
 	}
 
 	private OnChronometerTickListener onChronometerTickListener = new OnChronometerTickListener() {
@@ -51,11 +53,9 @@ public class TimerView extends Chronometer {
 			}
 			else {
 				if (remainingTime != 0) {
-					remainingTime--;
-					updateTextValue(remainingTime);
+					updateTextValue(remainingTime--);
 				}
 				else {
-
 					if (onTimeCompleteListener != null) {
 						onTimeCompleteListener.complete();
 						setOnChronometerTickListener(null);
