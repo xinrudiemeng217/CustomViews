@@ -21,4 +21,7 @@
 
     <string name="view_title_autoVerticalScrollTextView">AutoVerticalScrollTextView</string>
     <string name="view_introduction_autoVerticalScrollTextView">垂直滚动的单行跑马灯</string>
+
+    <string name="view_title_waveView">WaveView</string>
+    <string name="view_introduction_waveView">电池波浪效果</string>
 </resources>

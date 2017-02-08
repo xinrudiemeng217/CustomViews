@@ -15,6 +15,7 @@ import com.custom.view.activity.view.PuzzleViewActivity;
 import com.custom.view.activity.view.StarLevelViewActivity;
 import com.custom.view.activity.view.TimerViewActivity;
 import com.custom.view.activity.view.UnlockViewActivity;
+import com.custom.view.activity.view.WaveViewActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -29,7 +30,8 @@ public class MainActivity extends BaseActivity {
             new CustomView(R.string.view_title_flowRadioGroup, R.string.view_introduction_flowRadioGroup, FlowRadioGroupActivity.class),
             new CustomView(R.string.view_title_puzzleView, R.string.view_introduction_puzzleView, PuzzleViewActivity.class),
             new CustomView(R.string.view_title_autoHorizontalScrollTextView, R.string.view_introduction_autoHorizontalScrollTextView, AutoHorizontalScrollTextViewActivity.class),
-            new CustomView(R.string.view_title_autoVerticalScrollTextView, R.string.view_introduction_autoVerticalScrollTextView, AutoVerticalScrollTextViewActivity.class)
+            new CustomView(R.string.view_title_autoVerticalScrollTextView, R.string.view_introduction_autoVerticalScrollTextView, AutoVerticalScrollTextViewActivity.class),
+            new CustomView(R.string.view_title_waveView, R.string.view_introduction_waveView, WaveViewActivity.class)
     };
 
     @Override

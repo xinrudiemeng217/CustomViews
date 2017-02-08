@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.custom.view.view.WaveView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/wave_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:above_wave_color="#ff0000ff"
+        app:blow_wave_color="#ff0000ff"
+        app:progress="0.8" />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="80" />
+
+</LinearLayout>
