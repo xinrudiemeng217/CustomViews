@@ -23,7 +23,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 
 /**
- * 四位数字密码解锁View
+ * 数字密码解锁View
  */
 public class UnlockView extends LinearLayout {
 
@@ -57,7 +57,7 @@ public class UnlockView extends LinearLayout {
             items[i].setId(i);
             items[i].setSingleLine();
             items[i].setInputType(InputType.TYPE_CLASS_NUMBER);
-            items[i].setFilters(new InputFilter[]{new InputFilter.LengthFilter(1)});
+            items[i].setFilters(new InputFilter[] { new InputFilter.LengthFilter(1) });
             // items[i].setCursorVisible(false);
             items[i].setTextColor(Color.BLACK);
             items[i].setGravity(Gravity.CENTER);
@@ -88,7 +88,7 @@ public class UnlockView extends LinearLayout {
         gradientDrawable.setColor(Color.WHITE);// 填充
         gradientDrawable.setCornerRadius(16);// 圆角
         gradientDrawable.setStroke(1, Color.parseColor("#000000"));// 边框
-        stateListDrawable.addState(new int[]{}, gradientDrawable);
+        stateListDrawable.addState(new int[] {}, gradientDrawable);
         return stateListDrawable;
     }
 
@@ -175,7 +175,8 @@ public class UnlockView extends LinearLayout {
     /**
      * 屏幕的宽
      *
-     * @param context Context
+     * @param context
+     *            Context
      * @return ScreenWidth
      */
     private int getScreenWidth(Context context) {
@@ -195,7 +196,7 @@ public class UnlockView extends LinearLayout {
     public interface UnlockCallBack {
 
         /**
-         * 输入完整4位密码回调此方法
+         * 输入值
          */
         void callback(UnlockView view, String value);
     }
@@ -203,7 +204,8 @@ public class UnlockView extends LinearLayout {
     /**
      * 弹出软键盘
      *
-     * @param editText EditText
+     * @param editText
+     *            EditText
      */
     private void openKeyboard(final EditText editText) {
         Timer timer = new Timer();
