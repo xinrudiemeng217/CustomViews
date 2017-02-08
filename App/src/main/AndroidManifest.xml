@@ -19,6 +19,7 @@
         <activity android:name=".activity.view.StarLevelViewActivity"/>
         <activity android:name=".activity.view.TimerViewActivity"/>
         <activity android:name=".activity.view.FlowRadioGroupActivity"/>
+        <activity android:name=".activity.view.PuzzleViewActivity"/>
     </application>
 
 </manifest>

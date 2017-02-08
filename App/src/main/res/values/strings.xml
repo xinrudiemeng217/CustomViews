@@ -13,4 +13,7 @@
     <string name="view_title_flowRadioGroup">FlowRadioGroup</string>
     <string name="view_introduction_flowRadioGroup">动态RadioButton</string>
 
+    <string name="view_title_puzzleView">PuzzleView</string>
+    <string name="view_introduction_puzzleView">拼图（可选难易度）</string>
+
 </resources>

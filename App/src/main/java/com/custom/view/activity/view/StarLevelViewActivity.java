@@ -1,13 +1,10 @@
 package com.custom.view.activity.view;
 
-import android.graphics.Canvas;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.custom.view.R;
 import com.custom.view.activity.base.BaseActivity;
 import com.custom.view.view.StarLevelView;
-import com.custom.view.view.UnlockView;
 
 import java.util.ArrayList;
 import java.util.List;

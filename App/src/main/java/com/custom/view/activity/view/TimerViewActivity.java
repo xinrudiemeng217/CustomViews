@@ -19,7 +19,7 @@ public class TimerViewActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timerview);
 
-        setTitle(StarLevelView.class.getSimpleName());
+        setTitle(TimerView.class.getSimpleName());
 
         this.init();
     }

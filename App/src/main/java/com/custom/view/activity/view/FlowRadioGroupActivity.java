@@ -20,7 +20,7 @@ public class FlowRadioGroupActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flowradiogroup);
 
-        setTitle(StarLevelView.class.getSimpleName());
+        setTitle(FlowRadioGroup.class.getSimpleName());
 
         this.init();
     }
