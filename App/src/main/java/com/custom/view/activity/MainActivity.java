@@ -8,6 +8,8 @@ import android.widget.ListView;
 
 import com.custom.view.R;
 import com.custom.view.activity.base.BaseActivity;
+import com.custom.view.activity.view.AutoHorizontalScrollTextViewActivity;
+import com.custom.view.activity.view.AutoVerticalScrollTextViewActivity;
 import com.custom.view.activity.view.FlowRadioGroupActivity;
 import com.custom.view.activity.view.PuzzleViewActivity;
 import com.custom.view.activity.view.StarLevelViewActivity;
@@ -25,8 +27,9 @@ public class MainActivity extends BaseActivity {
             new CustomView(R.string.view_title_starLevelView, R.string.view_introduction_starLevelView, StarLevelViewActivity.class),
             new CustomView(R.string.view_title_timerView, R.string.view_introduction_timerView, TimerViewActivity.class),
             new CustomView(R.string.view_title_flowRadioGroup, R.string.view_introduction_flowRadioGroup, FlowRadioGroupActivity.class),
-            new CustomView(R.string.view_title_puzzleView, R.string.view_introduction_puzzleView, PuzzleViewActivity.class)
-
+            new CustomView(R.string.view_title_puzzleView, R.string.view_introduction_puzzleView, PuzzleViewActivity.class),
+            new CustomView(R.string.view_title_autoHorizontalScrollTextView, R.string.view_introduction_autoHorizontalScrollTextView, AutoHorizontalScrollTextViewActivity.class),
+            new CustomView(R.string.view_title_autoVerticalScrollTextView, R.string.view_introduction_autoVerticalScrollTextView, AutoVerticalScrollTextViewActivity.class)
     };
 
     @Override
