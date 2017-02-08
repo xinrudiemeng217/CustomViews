@@ -17,5 +17,8 @@
 ####• PuzzleView 拼图（可选难易度）
 ![PuzzleView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/PuzzleView.jpg "PuzzleView")
 
+####• AutoScrollTextView 跑马灯（横向、垂直）
+![AutoScrollTextView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/AutoScrollTextView.jpg "AutoScrollTextView")
+
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
