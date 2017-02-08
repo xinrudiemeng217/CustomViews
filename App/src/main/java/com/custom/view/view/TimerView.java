@@ -28,6 +28,9 @@ public class TimerView extends Chronometer {
 	/** 倒序、正序 */
 	private boolean direction = false;
 
+	/** 是否正在计时 */
+	private boolean start = false;
+
 	public TimerView(Context context) {
 		this(context, null, 0);
 	}
@@ -41,7 +44,7 @@ public class TimerView extends Chronometer {
 
 		setOnChronometerTickListener(onChronometerTickListener);
 
-		updateTextValue(remainingTime);
+		updateTextValue(0);
 	}
 
 	private OnChronometerTickListener onChronometerTickListener = new OnChronometerTickListener() {
@@ -57,6 +60,8 @@ public class TimerView extends Chronometer {
 				}
 				else {
 					if (onTimeCompleteListener != null) {
+						updateTextValue(0);
+						start = false;
 						onTimeCompleteListener.complete();
 						setOnChronometerTickListener(null);
 					}
@@ -67,14 +72,16 @@ public class TimerView extends Chronometer {
 
 	@Override
 	public void start() {
+		start = true;
 		setBase(SystemClock.elapsedRealtime());// 复位计时器，停止计时
 		super.start();
 	}
 
 	@Override
 	public void stop() {
+		start = false;
 		super.stop();
-		setBase(SystemClock.elapsedRealtime());// 复位计时器，停止计时
+		updateTextValue(0);
 	}
 
 	/**
@@ -106,6 +113,10 @@ public class TimerView extends Chronometer {
 
 	public void setTotalTime(long totalTime) {
 		this.totalTime = totalTime;
+	}
+
+	public boolean isStart() {
+		return start;
 	}
 
 	public interface OnTimeCompleteListener {
