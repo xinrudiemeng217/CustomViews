@@ -23,6 +23,7 @@
         <activity android:name=".activity.view.AutoHorizontalScrollTextViewActivity"/>
         <activity android:name=".activity.view.AutoVerticalScrollTextViewActivity"/>
         <activity android:name=".activity.view.WaveViewActivity"/>
+        <activity android:name=".activity.view.BadgeViewActivity"/>
     </application>
 
 </manifest>

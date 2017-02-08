@@ -24,4 +24,7 @@
 
     <string name="view_title_waveView">WaveView</string>
     <string name="view_introduction_waveView">电池波浪效果</string>
+
+    <string name="view_title_badgeView">BadgeView</string>
+    <string name="view_introduction_badgeView">图标信息提示功能</string>
 </resources>
