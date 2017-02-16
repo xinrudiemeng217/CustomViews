@@ -1,5 +1,5 @@
 # CustomViews 
-实际项目用到的各种自定义控件
+收集实际项目用到的各种自定义控件
 
 ##Screenshots
 ####• UnlockView 四位密码解锁框
