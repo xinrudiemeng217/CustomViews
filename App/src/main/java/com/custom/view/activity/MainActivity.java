@@ -12,6 +12,7 @@ import com.custom.view.activity.view.AutoHorizontalScrollTextViewActivity;
 import com.custom.view.activity.view.AutoVerticalScrollTextViewActivity;
 import com.custom.view.activity.view.BadgeViewActivity;
 import com.custom.view.activity.view.CircleImageViewActivity;
+import com.custom.view.activity.view.CountTimeProgressViewActivity;
 import com.custom.view.activity.view.FlowRadioGroupActivity;
 import com.custom.view.activity.view.PuzzleViewActivity;
 import com.custom.view.activity.view.StarLevelViewActivity;
@@ -35,7 +36,8 @@ public class MainActivity extends BaseActivity {
             new CustomView(R.string.view_title_autoVerticalScrollTextView, R.string.view_introduction_autoVerticalScrollTextView, AutoVerticalScrollTextViewActivity.class),
             new CustomView(R.string.view_title_waveView, R.string.view_introduction_waveView, WaveViewActivity.class),
             new CustomView(R.string.view_title_badgeView, R.string.view_introduction_badgeView, BadgeViewActivity.class),
-            new CustomView(R.string.view_title_circleImageView, R.string.view_introduction_circleImageView, CircleImageViewActivity.class)
+            new CustomView(R.string.view_title_circleImageView, R.string.view_introduction_circleImageView, CircleImageViewActivity.class),
+            new CustomView(R.string.view_title_countTimeProgressView, R.string.view_introduction_countTimeProgressView, CountTimeProgressViewActivity.class)
     };
 
     @Override

@@ -30,4 +30,7 @@
 
     <string name="view_title_circleImageView">CircleImageView</string>
     <string name="view_introduction_circleImageView">圆形ImageView</string>
+
+    <string name="view_title_countTimeProgressView">CountTimeProgressView</string>
+    <string name="view_introduction_countTimeProgressView">圆形倒计时控件</string>
 </resources>

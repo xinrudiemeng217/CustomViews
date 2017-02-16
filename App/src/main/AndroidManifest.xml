@@ -25,6 +25,7 @@
         <activity android:name=".activity.view.WaveViewActivity"/>
         <activity android:name=".activity.view.BadgeViewActivity"/>
         <activity android:name=".activity.view.CircleImageViewActivity"/>
+        <activity android:name=".activity.view.CountTimeProgressViewActivity"/>
     </application>
 
 </manifest>

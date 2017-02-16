@@ -18,4 +18,33 @@
         <attr name="civ_border_overlay" format="boolean" />
         <attr name="civ_fill_color" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="CountTimeProgressView">
+
+        <attr name="background_Color" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderDrawColor" format="color" />
+        <attr name="borderBottomColor" format="color" />
+
+        <attr name="markBallWidth" format="dimension" />
+        <attr name="markBallColor" format="color" />
+        <attr name="markBallFlag" format="boolean" />
+
+        <attr name="startAngle" format="integer" />
+        <attr name="clockwise" format="boolean" />
+
+        <attr name="countTime" format="integer"/>
+
+        <attr name="textStyle" format="enum">
+            <enum name="jump" value="0" />
+            <enum name="second" value="1" />
+            <enum name="clock" value="2" />
+            <enum name="none" value="3" />
+        </attr>
+
+        <attr name="titleCenter" format="string"/>
+        <attr name="titleCenterColor" format="color"/>
+        <attr name="titleCenterSize" format="dimension" />
+
+    </declare-styleable>
 </resources>
