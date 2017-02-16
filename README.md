@@ -20,5 +20,8 @@
 ####• AutoScrollTextView 跑马灯（横向、垂直）
 ![AutoScrollTextView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/AutoScrollTextView.jpg "AutoScrollTextView")
 
+####• CircleImageView 圆形ImageView
+![CircleImageView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CircleImageView.png "CircleImageView")
+
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
