@@ -24,6 +24,7 @@
         <activity android:name=".activity.view.AutoVerticalScrollTextViewActivity"/>
         <activity android:name=".activity.view.WaveViewActivity"/>
         <activity android:name=".activity.view.BadgeViewActivity"/>
+        <activity android:name=".activity.view.CircleImageViewActivity"/>
     </application>
 
 </manifest>
