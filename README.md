@@ -1,5 +1,5 @@
 # CustomViews 
-实际项目用到的各种自定义控件
+收集实际项目用到的各种自定义控件
 
 ##Screenshots
 ####• UnlockView 四位密码解锁框
@@ -19,6 +19,9 @@
 
 ####• AutoScrollTextView 跑马灯（横向、垂直）
 ![AutoScrollTextView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/AutoScrollTextView.jpg "AutoScrollTextView")
+
+####• CircleImageView 圆形ImageView
+![CircleImageView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CircleImageView.png "CircleImageView")
 
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
