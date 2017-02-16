@@ -21,7 +21,7 @@
 ![AutoScrollTextView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/AutoScrollTextView.jpg "AutoScrollTextView")
 
 ####• CircleImageView 圆形ImageView
-![CircleImageView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CircleImageView.png "CircleImageView")
+![CircleImageView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CircleImageView.jpg "CircleImageView")
 
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
