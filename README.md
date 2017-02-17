@@ -20,11 +20,20 @@
 ####• AutoScrollTextView 跑马灯（横向、垂直）
 ![AutoScrollTextView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/AutoScrollTextView.jpg "AutoScrollTextView")
 
+####• WaveView 电池波浪效果
+![WaveView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/WaveView.jpg "WaveView")
+
+####• WaveView 图标信息提示功能
+![WaveView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/WaveView.jpg "WaveView")
+
 ####• CircleImageView 圆形ImageView
 ![CircleImageView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CircleImageView.jpg "CircleImageView")
 
 ####• CountTimeProgressView 圆形倒计时控件
 ![CountTimeProgressView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CountTimeProgressView.jpg "CountTimeProgressView")
+
+####• BlurringView 毛玻璃效果
+![BlurringView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/BlurringView.jpg
 
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
