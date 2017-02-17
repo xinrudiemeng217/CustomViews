@@ -41,5 +41,8 @@
 ####• RadarView 可以自由定制、旋转交互的雷达图
 ![RadarView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/RadarView.jpg "RadarView")
 
+####• StepView 横向、垂直步骤指示器
+![StepView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/StepView.jpg "StepView")
+
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
