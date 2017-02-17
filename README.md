@@ -38,5 +38,8 @@
 ####• FlipperView 翻转的View
 ![FlipperView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/FlipperView.jpg "FlipperView")
 
+####• RadarView 可以自由定制、旋转交互的雷达图
+![RadarView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/RadarView.jpg "RadarView")
+
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
