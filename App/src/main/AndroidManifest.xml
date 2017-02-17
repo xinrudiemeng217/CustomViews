@@ -27,6 +27,8 @@
         <activity android:name=".activity.view.CircleImageViewActivity"/>
         <activity android:name=".activity.view.CountTimeProgressViewActivity"/>
         <activity android:name=".activity.view.BlurringViewActivity"/>
+        <activity android:name=".activity.view.FlipperViewActivity"/>
+
     </application>
 
 </manifest>

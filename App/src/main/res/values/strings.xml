@@ -36,4 +36,7 @@
 
     <string name="view_title_blurringView">BlurringView</string>
     <string name="view_introduction_blurringView">毛玻璃效果</string>
+
+    <string name="view_title_flipperView">FlipperView</string>
+    <string name="view_introduction_flipperView">翻转的View</string>
 </resources>
