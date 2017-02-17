@@ -39,4 +39,7 @@
 
     <string name="view_title_radarView">RadarView</string>
     <string name="view_introduction_radarView">可以自由定制、旋转交互的雷达图</string>
+
+    <string name="view_title_stepView">StepView</string>
+    <string name="view_introduction_stepView">横向、垂直步骤指示器</string>
 </resources>

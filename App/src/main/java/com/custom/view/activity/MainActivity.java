@@ -18,6 +18,7 @@ import com.custom.view.activity.view.FlowRadioGroupActivity;
 import com.custom.view.activity.view.PuzzleViewActivity;
 import com.custom.view.activity.view.RadarViewActivity;
 import com.custom.view.activity.view.StarLevelViewActivity;
+import com.custom.view.activity.view.StepViewActivity;
 import com.custom.view.activity.view.TimerViewActivity;
 import com.custom.view.activity.view.UnlockViewActivity;
 import com.custom.view.activity.view.WaveViewActivity;
@@ -41,7 +42,8 @@ public class MainActivity extends BaseActivity {
             new CustomView(R.string.view_title_countTimeProgressView, R.string.view_introduction_countTimeProgressView, CountTimeProgressViewActivity.class),
             new CustomView(R.string.view_title_blurringView, R.string.view_introduction_blurringView, BlurringViewActivity.class),
             new CustomView(R.string.view_title_flipperView, R.string.view_introduction_flipperView, FlipperViewActivity.class),
-            new CustomView(R.string.view_title_radarView, R.string.view_introduction_radarView, RadarViewActivity.class)
+            new CustomView(R.string.view_title_radarView, R.string.view_introduction_radarView, RadarViewActivity.class),
+            new CustomView(R.string.view_title_stepView, R.string.view_introduction_stepView, StepViewActivity.class)
     };
 
     @Override

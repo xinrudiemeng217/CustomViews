@@ -28,6 +28,8 @@
         <activity android:name=".activity.view.BlurringViewActivity"/>
         <activity android:name=".activity.view.FlipperViewActivity"/>
         <activity android:name=".activity.view.RadarViewActivity"/>
+        <activity android:name=".activity.view.StepViewActivity"/>
+
     </application>
 
 </manifest>
