@@ -35,5 +35,8 @@
 ####• BlurringView 毛玻璃效果
 ![BlurringView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/BlurringView.jpg "BlurringView")
 
+####• FlipperView 翻转的View
+![FlipperView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/FlipperView.jpg "FlipperView")
+
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
