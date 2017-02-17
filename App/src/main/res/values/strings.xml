@@ -26,7 +26,7 @@
     <string name="view_introduction_waveView">电池波浪效果</string>
 
     <string name="view_title_badgeView">BadgeView</string>
-    <string name="view_introduction_badgeView">图标信息提示功能</string>
+    <string name="view_introduction_badgeView">自由定制外观、支持拖拽消除的角标提示控件</string>
 
     <string name="view_title_circleImageView">CircleImageView</string>
     <string name="view_introduction_circleImageView">圆形ImageView</string>
