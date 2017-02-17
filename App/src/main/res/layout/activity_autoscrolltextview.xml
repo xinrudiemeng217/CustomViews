@@ -3,14 +3,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <com.custom.view.view.AutoHorizontalScrollTextView
+    <com.custom.view.view.autoscrollview.AutoHorizontalScrollTextView
         android:id="@+id/autoHorizontalScrollTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:lines="1"
         android:singleLine="true"
+        android:textSize="20sp"/>
+
+    <com.custom.view.view.autoscrollview.AutoVerticalScrollTextView
+        android:id="@+id/autoVerticalScrollTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textSize="20sp"/>
 
 </LinearLayout>

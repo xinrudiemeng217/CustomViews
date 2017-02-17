@@ -8,8 +8,7 @@ import android.widget.ListView;
 
 import com.custom.view.R;
 import com.custom.view.activity.base.BaseActivity;
-import com.custom.view.activity.view.AutoHorizontalScrollTextViewActivity;
-import com.custom.view.activity.view.AutoVerticalScrollTextViewActivity;
+import com.custom.view.activity.view.AutoScrollTextViewActivity;
 import com.custom.view.activity.view.BadgeViewActivity;
 import com.custom.view.activity.view.BlurringViewActivity;
 import com.custom.view.activity.view.CircleImageViewActivity;
@@ -22,7 +21,6 @@ import com.custom.view.activity.view.StarLevelViewActivity;
 import com.custom.view.activity.view.TimerViewActivity;
 import com.custom.view.activity.view.UnlockViewActivity;
 import com.custom.view.activity.view.WaveViewActivity;
-import com.custom.view.view.radarview.RadarView;
 
 public class MainActivity extends BaseActivity {
 
@@ -36,8 +34,7 @@ public class MainActivity extends BaseActivity {
             new CustomView(R.string.view_title_timerView, R.string.view_introduction_timerView, TimerViewActivity.class),
             new CustomView(R.string.view_title_flowRadioGroup, R.string.view_introduction_flowRadioGroup, FlowRadioGroupActivity.class),
             new CustomView(R.string.view_title_puzzleView, R.string.view_introduction_puzzleView, PuzzleViewActivity.class),
-            new CustomView(R.string.view_title_autoHorizontalScrollTextView, R.string.view_introduction_autoHorizontalScrollTextView, AutoHorizontalScrollTextViewActivity.class),
-            new CustomView(R.string.view_title_autoVerticalScrollTextView, R.string.view_introduction_autoVerticalScrollTextView, AutoVerticalScrollTextViewActivity.class),
+            new CustomView(R.string.view_title_autoHorizontalScrollTextView, R.string.view_introduction_autoHorizontalScrollTextView, AutoScrollTextViewActivity.class),
             new CustomView(R.string.view_title_waveView, R.string.view_introduction_waveView, WaveViewActivity.class),
             new CustomView(R.string.view_title_badgeView, R.string.view_introduction_badgeView, BadgeViewActivity.class),
             new CustomView(R.string.view_title_circleImageView, R.string.view_introduction_circleImageView, CircleImageViewActivity.class),

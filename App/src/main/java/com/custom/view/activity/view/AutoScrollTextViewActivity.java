@@ -7,30 +7,35 @@ import android.os.SystemClock;
 
 import com.custom.view.R;
 import com.custom.view.activity.base.BaseActivity;
-import com.custom.view.view.AutoVerticalScrollTextView;
-import com.custom.view.view.UnlockView;
+import com.custom.view.view.autoscrollview.AutoHorizontalScrollTextView;
+import com.custom.view.view.autoscrollview.AutoVerticalScrollTextView;
 
-public class AutoVerticalScrollTextViewActivity extends BaseActivity {
+public class AutoScrollTextViewActivity extends BaseActivity {
+
+    private String value = "跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试";
 
     private AutoVerticalScrollTextView autoVerticalScrollTextView;
 
-    private String[] value = {"跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试"};
+    private String[] values = {"跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试，跑马灯测试"};
 
     private boolean isRunning = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_autoverticalscrolltextview);
+        setContentView(R.layout.activity_autoscrolltextview);
 
-        setTitle(AutoVerticalScrollTextView.class.getSimpleName());
+        setTitle(AutoHorizontalScrollTextView.class.getSimpleName());
 
         this.init();
     }
 
     private void init() {
+        AutoHorizontalScrollTextView autoHorizontalScrollTextView = (AutoHorizontalScrollTextView) findViewById(R.id.autoHorizontalScrollTextView);
+        autoHorizontalScrollTextView.setText(value);
+
         autoVerticalScrollTextView = (AutoVerticalScrollTextView) findViewById(R.id.autoVerticalScrollTextView);
-        autoVerticalScrollTextView.setText(value[0]);
+        autoVerticalScrollTextView.setText(values[0]);
 
         new Thread() {
             @Override
@@ -52,7 +57,7 @@ public class AutoVerticalScrollTextViewActivity extends BaseActivity {
             if (msg.what == 199) {
                 autoVerticalScrollTextView.next();
                 number++;
-                autoVerticalScrollTextView.setText(value[number % value.length]);
+                autoVerticalScrollTextView.setText(values[number % values.length]);
             }
 
         }

@@ -20,8 +20,7 @@
         <activity android:name=".activity.view.TimerViewActivity"/>
         <activity android:name=".activity.view.FlowRadioGroupActivity"/>
         <activity android:name=".activity.view.PuzzleViewActivity"/>
-        <activity android:name=".activity.view.AutoHorizontalScrollTextViewActivity"/>
-        <activity android:name=".activity.view.AutoVerticalScrollTextViewActivity"/>
+        <activity android:name=".activity.view.AutoScrollTextViewActivity"/>
         <activity android:name=".activity.view.WaveViewActivity"/>
         <activity android:name=".activity.view.BadgeViewActivity"/>
         <activity android:name=".activity.view.CircleImageViewActivity"/>

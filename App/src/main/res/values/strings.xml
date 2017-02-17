@@ -16,11 +16,8 @@
     <string name="view_title_puzzleView">PuzzleView</string>
     <string name="view_introduction_puzzleView">拼图（可选难易度）</string>
 
-    <string name="view_title_autoHorizontalScrollTextView">AutoHorizontalScrollTextView</string>
-    <string name="view_introduction_autoHorizontalScrollTextView">横向滚动的跑马灯</string>
-
-    <string name="view_title_autoVerticalScrollTextView">AutoVerticalScrollTextView</string>
-    <string name="view_introduction_autoVerticalScrollTextView">垂直滚动的单行跑马灯</string>
+    <string name="view_title_autoHorizontalScrollTextView">AutoScrollTextView</string>
+    <string name="view_introduction_autoHorizontalScrollTextView">横向、垂直滚动的跑马灯</string>
 
     <string name="view_title_waveView">WaveView</string>
     <string name="view_introduction_waveView">电池波浪效果</string>

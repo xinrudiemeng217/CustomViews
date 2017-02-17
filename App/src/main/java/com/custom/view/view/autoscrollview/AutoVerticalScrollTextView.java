@@ -1,4 +1,4 @@
-package com.custom.view.view;
+package com.custom.view.view.autoscrollview;
 
 import android.content.Context;
 import android.graphics.Camera;

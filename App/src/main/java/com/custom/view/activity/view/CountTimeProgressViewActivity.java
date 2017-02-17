@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.custom.view.R;
 import com.custom.view.activity.base.BaseActivity;
-import com.custom.view.view.AutoHorizontalScrollTextView;
 import com.custom.view.view.CountTimeProgressView;
 import com.kyleduo.switchbutton.SwitchButton;
 import com.larswerkman.lobsterpicker.OnColorListener;

@@ -11,7 +11,6 @@ import android.widget.ImageView;
 
 import com.custom.view.R;
 import com.custom.view.activity.base.BaseActivity;
-import com.custom.view.view.AutoHorizontalScrollTextView;
 import com.custom.view.view.BlurringView;
 
 import java.util.Random;
