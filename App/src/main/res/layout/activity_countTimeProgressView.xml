@@ -14,7 +14,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <com.sfyc.ctpv.CountTimeProgressView
+        <com.custom.view.view.CountTimeProgressView
             android:id="@+id/countTimeProgressView"
             android:layout_width="200dp"
             android:layout_height="200dp"

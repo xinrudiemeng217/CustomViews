@@ -33,4 +33,7 @@
 
     <string name="view_title_countTimeProgressView">CountTimeProgressView</string>
     <string name="view_introduction_countTimeProgressView">圆形倒计时控件</string>
+
+    <string name="view_title_blurringView">BlurringView</string>
+    <string name="view_introduction_blurringView">毛玻璃效果</string>
 </resources>
