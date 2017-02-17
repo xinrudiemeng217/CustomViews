@@ -33,7 +33,7 @@
 ![CountTimeProgressView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CountTimeProgressView.jpg "CountTimeProgressView")
 
 ####• BlurringView 毛玻璃效果
-![BlurringView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/BlurringView.jpg
+![BlurringView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/BlurringView.jpg "BlurringView")
 
 ##Feedback
 •  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
