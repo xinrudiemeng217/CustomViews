@@ -23,8 +23,8 @@
 ####• WaveView 电池波浪效果
 ![WaveView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/WaveView.jpg "WaveView")
 
-####• WaveView 图标信息提示功能
-![WaveView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/WaveView.jpg "WaveView")
+####• BadgeView 自由定制外观、支持拖拽消除的角标提示控件
+![BadgeView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/BadgeView.jpg "BadgeView")
 
 ####• CircleImageView 圆形ImageView
 ![CircleImageView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/CircleImageView.jpg "CircleImageView")
