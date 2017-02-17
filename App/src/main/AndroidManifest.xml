@@ -28,7 +28,7 @@
         <activity android:name=".activity.view.CountTimeProgressViewActivity"/>
         <activity android:name=".activity.view.BlurringViewActivity"/>
         <activity android:name=".activity.view.FlipperViewActivity"/>
-
+        <activity android:name=".activity.view.RadarViewActivity"/>
     </application>
 
 </manifest>

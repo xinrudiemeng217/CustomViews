@@ -17,10 +17,12 @@ import com.custom.view.activity.view.CountTimeProgressViewActivity;
 import com.custom.view.activity.view.FlipperViewActivity;
 import com.custom.view.activity.view.FlowRadioGroupActivity;
 import com.custom.view.activity.view.PuzzleViewActivity;
+import com.custom.view.activity.view.RadarViewActivity;
 import com.custom.view.activity.view.StarLevelViewActivity;
 import com.custom.view.activity.view.TimerViewActivity;
 import com.custom.view.activity.view.UnlockViewActivity;
 import com.custom.view.activity.view.WaveViewActivity;
+import com.custom.view.view.radarview.RadarView;
 
 public class MainActivity extends BaseActivity {
 
@@ -41,7 +43,8 @@ public class MainActivity extends BaseActivity {
             new CustomView(R.string.view_title_circleImageView, R.string.view_introduction_circleImageView, CircleImageViewActivity.class),
             new CustomView(R.string.view_title_countTimeProgressView, R.string.view_introduction_countTimeProgressView, CountTimeProgressViewActivity.class),
             new CustomView(R.string.view_title_blurringView, R.string.view_introduction_blurringView, BlurringViewActivity.class),
-            new CustomView(R.string.view_title_flipperView, R.string.view_introduction_flipperView, FlipperViewActivity.class)
+            new CustomView(R.string.view_title_flipperView, R.string.view_introduction_flipperView, FlipperViewActivity.class),
+            new CustomView(R.string.view_title_radarView, R.string.view_introduction_radarView, RadarViewActivity.class)
     };
 
     @Override

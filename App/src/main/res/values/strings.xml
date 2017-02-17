@@ -39,4 +39,7 @@
 
     <string name="view_title_flipperView">FlipperView</string>
     <string name="view_introduction_flipperView">翻转的View</string>
+
+    <string name="view_title_radarView">RadarView</string>
+    <string name="view_introduction_radarView">可以自由定制、旋转交互的雷达图</string>
 </resources>
