@@ -2,7 +2,7 @@
 收集实际项目用到的各种自定义控件
 
 ##Screenshots
-####• UnlockView 四位密码解锁框
+####* UnlockView 四位密码解锁框
 ![UnlockView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/UnlockView.jpg "UnlockView")
 
 ####• StarLevelView 多边星形
@@ -45,4 +45,4 @@
 ![StepView](https://github.com/DesignQu/CustomViews/blob/master/ImageFolder/StepView.jpg "StepView")
 
 ##Feedback
-•  Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
+* Project  [Submit Bug or Idea](https://github.com/DesignQu/CustomViews/issues)  
